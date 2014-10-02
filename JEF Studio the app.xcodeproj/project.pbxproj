@@ -396,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JEF Studio the app/JEF Studio the app-Prefix.pch";
 				INFOPLIST_FILE = "JEF Studio the app/JEF Studio the app-Info.plist";
@@ -409,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JEF Studio the app/JEF Studio the app-Prefix.pch";
 				INFOPLIST_FILE = "JEF Studio the app/JEF Studio the app-Info.plist";
@@ -476,6 +478,7 @@
 				F298110119DBA56C0001D281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F298110219DBA56C0001D281 /* Build configuration list for PBXNativeTarget "JEF Studio the appTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +487,7 @@
 				F298110419DBA56C0001D281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

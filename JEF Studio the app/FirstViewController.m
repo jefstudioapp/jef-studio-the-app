@@ -15,10 +15,14 @@
 @implementation FirstViewController
 
 - (void)viewDidLoad
-{
+{NSURL *myURL = [NSURL URLWithString:@"http://jefstud.weebly.com"];
+    
+    NSURLRequest *requestURL = [NSURLRequest requestWithURL:myURL];
+    
+    [JEFWEB loadRequest:requestURL];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
+    }
 
 - (void)didReceiveMemoryWarning
 {
